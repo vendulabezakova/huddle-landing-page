@@ -1,0 +1,170 @@
+/* mobile */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #6648B1;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  background-image: url("images/bg-mobile.svg");
+  background-repeat: no-repeat;
+  padding: 20px;
+  margin: -10px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.attribution {
+  font-size: 10px;
+}
+
+.attribution a {
+  color: white;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 26px;
+  padding: 20px 20px;
+}
+
+p {
+  text-align: center;
+  padding: 0 20px 10px 20px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.logo {
+  width: 140px;
+  padding-bottom: 60px;
+}
+
+.mockup {
+  width: 85%;
+}
+
+.cta-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background-color: white;
+  text-align: center;
+  padding: 10px 80px;
+  margin: 0 20px;
+  font-family: 'Poppins', sans-serif;
+  color: #6648B1;
+  border-radius: 30px;
+  font-size: 14px;
+  box-shadow: 0px 5px 20px #422f72;
+  border: none;
+}
+
+button:hover {
+  background-color: #E882E8;
+  transition-duration: 0.4s;
+  color: white;
+}
+
+.social {
+  text-align: center;
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+ion-icon {
+  padding: 0 10px;
+}
+
+ion-icon:hover {
+  color: #E882E8;
+  transition-duration: 0.4s;
+}
+
+/*desktop*/
+@media  (min-width:1024px) {
+  body {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    background-image: url("images/bg-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right 5em bottom 50%;
+    padding: 40px 50px 40px 50px;
+  }
+
+  .info {
+    padding: 120px 30px 0 20px;
+  }
+
+  p, h1 {
+    text-align: left;
+  }
+
+  p {
+    padding-right: 150px;
+    font-size: 21px;
+  }
+
+  .cta-button {
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+  }
+
+  button {
+    padding: 15px 80px;
+  }
+
+  .mockup {
+    display: flex;
+    align-content: center;
+    padding-left: 30px;
+    width: 99%;
+  }
+
+  h1 {
+    font-size: 56px;
+  }
+
+  .logo {
+    width: 250px;
+    padding: 30px 0 80px 30px;
+  }
+
+  .social {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 30%;
+  }
+
+  footer {
+    display: flex;
+    align-items: center;
+  }
+  
+
+}
