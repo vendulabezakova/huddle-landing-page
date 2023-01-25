@@ -29,9 +29,9 @@ a {
   font-size: 10px;
 }
 
-.attribution a {
+a .attribution {
   color: white;
-
+  text-decoration: none;
 }
 
 h1,
